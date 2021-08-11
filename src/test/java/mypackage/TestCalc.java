@@ -8,6 +8,6 @@ public class TestCalc {
     private final MyCalc calc = new MyCalc();
     @Test
     void testAdd() {
-        assertEquals(calc.add(4, 5), 10, "Addition works!");
+        assertEquals(calc.add(5, 5), 10, "Addition works!");
     }
 }
