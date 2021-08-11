@@ -10,4 +10,8 @@ public class TestCalc {
     void testAdd() {
         assertEquals(calc.add(5, 5), 10, "Addition works!");
     }
+    @Test
+    void testSubtract() {
+        assertEquals(calc.subtract(15, 5), 10);
+    }
 }
