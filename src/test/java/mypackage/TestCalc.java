@@ -1,14 +1,13 @@
 package mypackage;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import static
+        org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestCalc {
-    void setUp() {
-        MyCalc mycalc = new MyCalc();
-    }
+    private final MyCalc calc = new MyCalc();
     @Test
     void testAdd() {
-        Assert.assertEquals(mycalc.add(4, 5), 9, "Addition works!");
+        assertEquals(calc.add(4, 5), 10, "Addition works!");
     }
 }
