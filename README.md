@@ -1,1 +1,2 @@
 # Tutorial 4 Calculator Project
+[![Build Status](https://travis-ci.com/fletchthefletch/tutorial4_calculator.svg?token=y6wDtyw9hh7x6ActSYAV&branch=main)](https://travis-ci.com/fletchthefletch/tutorial4_calculator)
